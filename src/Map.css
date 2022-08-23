@@ -1,0 +1,47 @@
+body {
+  background-color: #e5e5e5;
+}
+.box__container {
+  position: absolute;
+  width: 804px;
+  height: 596px;
+  background: rgba(196, 196, 196, 0.83);
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.font__title {
+  font-family: "Roboto", sans-serif;
+}
+
+.teleport__button {
+  background-color: #2ec1ef;
+  color: aliceBlue;
+  border-radius: 10px;
+  width: 155px;
+  height: 45px;
+  border: 0;
+  font-size: 11px;
+  box-shadow: 1px 1px 3px black;
+}
+
+.home__button {
+  background-color: #9a2eef;
+  color: aliceblue;
+  border-radius: 10px;
+  width: 155px;
+  height: 45px;
+  font-size: 11px;
+  border: 0;
+  box-shadow: 1px 1px 3px black;
+}
+
+.box_buttons {
+  position: absolute;
+  display: flex;
+  justify-content:space-between;
+  width: 450px;
+  left:170px;
+  bottom:100px;
+}
